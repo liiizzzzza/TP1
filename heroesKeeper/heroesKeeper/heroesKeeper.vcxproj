@@ -18,6 +18,20 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Characters.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="Keeper.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Villain.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Characters.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="Keeper.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Villain.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>

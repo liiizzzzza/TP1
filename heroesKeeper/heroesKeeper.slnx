@@ -3,5 +3,5 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="heroesKeeper/heroesKeeper.vcxproj" />
+  <Project Path="heroesKeeper/heroesKeeper.vcxproj" Id="e9e1913e-0c9b-41f3-8659-370274486de8" />
 </Solution>
