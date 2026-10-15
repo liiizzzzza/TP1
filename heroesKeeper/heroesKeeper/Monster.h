@@ -23,6 +23,7 @@ public:
     //виртуальные методы
     void display() const override;
     void edit() override;
+    void load(ifstream& file) override;
     void save(ofstream& file) const override;
     string getType() const override;
     Characters* clone() const override;
