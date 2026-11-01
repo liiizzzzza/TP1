@@ -72,3 +72,17 @@ Monster& Monster::operator=(const Monster& other)
 	cout << "Monster: вызван оператор присваивания" << endl;
 	return *this;
 }
+
+void Monster::load(ifstream& file)
+{
+	string newName;
+	string newAppearance;
+
+	
+	if (!getline(file, newName) ||
+		!getline(file, newAppearance))
+		throw runtime_error("Не удалось прочитать данные монстра.");
+
+	setName(newName);
+	setAppearance(newAppearance);
+}

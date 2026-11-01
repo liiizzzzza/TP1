@@ -182,3 +182,55 @@ Villain& Villain::operator=(const Villain& other)
 	cout << "Villain: вызван оператор присваивания" << endl;
 	return *this;
 }
+// Загрузка данных злодея из файла
+void Villain::load(ifstream& file)
+{
+	string newName;
+	string newWeapon;
+	string newCrime;
+	string newHabitat;
+	int newSkillCount;
+
+	// Чтение основных данных злодея
+	if (!getline(file, newName) ||
+		!getline(file, newWeapon) ||
+		!getline(file, newCrime) ||
+		!getline(file, newHabitat))
+		throw runtime_error("Не удалось прочитать данные злодея.");
+
+	// Чтение количества навыков
+	if (!(file >> newSkillCount) ||
+		newSkillCount < 0 || newSkillCount > 100)
+		throw runtime_error("Некорректное количество навыков злодея.");
+
+	file.ignore(numeric_limits<streamsize>::max(), '\n');
+
+	// Выделение памяти под навыки
+	string* newSkills = newSkillCount > 0
+		? new string[newSkillCount]
+		: nullptr;
+
+	try
+	{
+		// Чтение навыков
+		for (int i = 0; i < newSkillCount; i++)
+		{
+			if (!getline(file, newSkills[i]))
+				throw runtime_error("Не удалось прочитать навык злодея.");
+		}
+
+		// Установка прочитанных данных
+		setName(newName);
+		setWeaponType(newWeapon);
+		setCrime(newCrime);
+		setHabitat(newHabitat);
+		setSkills(newSkills, newSkillCount);
+	}
+	catch (...)
+	{
+		delete[] newSkills;
+		throw;
+	}
+
+	delete[] newSkills;
+}

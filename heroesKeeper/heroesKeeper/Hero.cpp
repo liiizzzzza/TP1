@@ -14,6 +14,7 @@ Hero::Hero(const string& name, const string& weaponType,
 	skills(nullptr), skillCount(0)
 {
 	setSkills(skills, skillCount);
+
 	cout << "Hero: вызван конструктор с параметрами" << endl;
 }
 Hero::Hero(const Hero& other)
@@ -145,4 +146,49 @@ Hero& Hero::operator=(const Hero& other)
 	}
 	cout << "Hero: вызван оператор присваивания" << endl;
 	return *this;
+}
+
+void Hero::load(ifstream& file)
+{
+	string newName;
+	string newWeapon;
+	int newSkillCount;
+
+	
+	if (!getline(file, newName) ||
+		!getline(file, newWeapon))
+		throw runtime_error("Не удалось прочитать данные героя.");
+
+
+	if (!(file >> newSkillCount) ||
+		newSkillCount < 0 || newSkillCount > 100)
+		throw runtime_error("Некорректное количество навыков героя.");
+
+	file.ignore(numeric_limits<streamsize>::max(), '\n');
+
+
+	string* newSkills = newSkillCount > 0
+		? new string[newSkillCount]
+		: nullptr;
+
+	try
+	{
+
+		for (int i = 0; i < newSkillCount; i++)
+		{
+			if (!getline(file, newSkills[i]))
+				throw runtime_error("Не удалось прочитать навык героя.");
+		}
+
+		setName(newName);
+		setWeaponType(newWeapon);
+		setSkills(newSkills, newSkillCount);
+	}
+	catch (...)
+	{
+		delete[] newSkills;
+		throw;
+	}
+
+	delete[] newSkills;
 }

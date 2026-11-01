@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|solutionrelative:heroesKeeper\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|solutionrelative:heroesKeeper\\Monster.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|solutionrelative:heroesKeeper\\Hero.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Villain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E9E1913E-0C9B-41F3-8659-370274486DE8}|heroesKeeper\\heroesKeeper.vcxproj|solutionrelative:heroesKeeper\\Villain.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Villain.cpp",
+              "DocumentMoniker": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Villain.cpp",
+              "RelativeDocumentMoniker": "heroesKeeper\\Villain.cpp",
+              "ToolTip": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Villain.cpp",
+              "RelativeToolTip": "heroesKeeper\\Villain.cpp",
+              "ViewState": "AgIAACAAAAAAAAAAAAAswN8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-01T10:49:05.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Monster.cpp",
+              "DocumentMoniker": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Monster.cpp",
+              "RelativeDocumentMoniker": "heroesKeeper\\Monster.cpp",
+              "ToolTip": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Monster.cpp",
+              "RelativeToolTip": "heroesKeeper\\Monster.cpp",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAswE4AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-01T10:48:50.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\main.cpp",
+              "RelativeDocumentMoniker": "heroesKeeper\\main.cpp",
+              "ToolTip": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\main.cpp",
+              "RelativeToolTip": "heroesKeeper\\main.cpp",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAswHsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-01T10:48:42.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hero.cpp",
+              "DocumentMoniker": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Hero.cpp",
+              "RelativeDocumentMoniker": "heroesKeeper\\Hero.cpp",
+              "ToolTip": "C:\\\u0410\u0423 \u042D\u0422\u041E \u0412\u0422\u041E\u0420\u041E\u0419 2.0\\\u0443\u0447\u0435\u0431\u0430\\\u0413\u0423\u042E\u041F\u0410\\\u0423\u0427\u0415\u0411\u0410\\3\u043A\u0443\u0440\u0441 \u043E\u0441\u0435\u043D\u044C\\\u0422\u041F\\1lr\\TP1\\heroesKeeper\\heroesKeeper\\Hero.cpp",
+              "RelativeToolTip": "heroesKeeper\\Hero.cpp",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAswMIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-11-01T10:48:08.026Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
